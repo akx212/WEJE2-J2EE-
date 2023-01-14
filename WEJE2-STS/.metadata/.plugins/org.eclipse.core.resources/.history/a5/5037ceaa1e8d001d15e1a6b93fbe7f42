@@ -1,0 +1,5 @@
+package com.jspiders.springboot.controller;
+
+public class StudentController {
+
+}

@@ -1,0 +1,5 @@
+package com.jspiders.springboot.service;
+
+public class StudentService {
+
+}

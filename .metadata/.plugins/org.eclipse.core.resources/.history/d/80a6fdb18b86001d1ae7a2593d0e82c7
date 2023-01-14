@@ -1,0 +1,62 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<jsp:include page="NavBar.jsp" />
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Management</title>
+<style type="text/css">
+body {
+	background-image:
+		url('');
+	background-size: 100%;
+}
+form {
+	margin-top: 10px;
+}
+
+form table {
+	margin: auto;
+	width: 100%;
+}
+
+tr {
+	text-align: center;
+}
+
+fieldset table {
+	margin: auto;
+	text-align: left;
+}
+
+fieldset {
+	margin: 15px 520px;
+	text-align: center;
+}
+
+legend {
+	color: Black;
+	background-color: aqua;
+}
+
+</style>
+</head>
+<body>
+
+	<fieldset>
+		<legend>Remove Student</legend>
+		<form action="./remove" method="get">
+			<table>
+				<tr>
+					<td><label>Enter student id :</label></td>
+					<td><input type="text" name="id"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Remove"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+</body>
+</html>

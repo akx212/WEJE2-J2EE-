@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+  
+  <bean class="com.jspiders.springcorexml.bean.StudentBean1" name="student3">
+  
+    
+     <constructor-arg name="id" value="3"/>
+     <constructor-arg name="name" value="Amar"/>
+     <constructor-arg name="email" value="amar@gmail.com"/>
+     <constructor-arg name="contact" value="8974563211"/>
+   
+  
+     </bean>
+     
+     </beans>

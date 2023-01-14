@@ -1,0 +1,101 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NavBar</title>
+<style>
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body {
+	font-family: 'Times New Roman', Times, serif;
+	background:
+		url(https://www.pexels.com/photo/aerial-photography-of-mountain-range-1534887.jpeg)
+		no-repeat;
+		background-size: cover;
+	height: calc(100vh - 80px);
+}
+
+nav {
+	height: 80px;
+	width: 100%;
+	background-color: aqua;
+}
+
+nav ul {
+	float: right;
+	margin-right: 400px;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 8px;
+	line-height: 80px;
+}
+
+nav a {
+	color: rgb(0, 0, 0);
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 2px solid transparent;
+	padding: 7px 10px;
+	border-radius: 3px;
+}
+
+a.active, a:hover {
+	border: 1px solid white;
+	
+}
+
+@media ( max-width :1048px) {
+	nav ul {
+		margin-right: 20px;
+	}
+	nav a {
+		font-size: 17px;
+	}
+}
+
+@media ( max-width :909px) {
+	nav ul {
+		position: fixed;
+		width: 100%;
+		background: #2f3640;
+		top: 80px;
+		
+		text-align: center;
+		
+	}
+	nav ul {
+		display: block;
+		margin: 50px 0;
+		line-height: 30px;
+	}
+	nav a {
+		font-size: 20px;
+	}
+}
+
+</style>
+</head>
+<body>
+
+	<nav>
+		<label for="" class="logo"></label>
+		<ul>
+			<li><a class="active" href="./home">Home</a></li>
+			<li><a href="./search">Search</a></li>
+			<li><a href="./remove">Remove</a></li>
+			<li><a href="./update">Update</a></li>
+			<li><a href="./add">Add</a></li>
+			<li><a href="./logout">Logout</a></li>
+		</ul>
+	</nav>
+</body>
+</html>

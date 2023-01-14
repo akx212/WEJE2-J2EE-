@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;MessiRonaldoDAO.java&apos; to &apos;hibernate_task/src/main/java/com.jspiders.hibernate_task_onetooneuniDAO&apos;&#x0D;&#x0A;- Original project: &apos;hibernate1&apos;&#x0D;&#x0A;- Destination element: &apos;hibernate_task/src/main/java/com.jspiders.hibernate_task_onetooneuniDAO&apos;&#x0D;&#x0A;- Original element: &apos;com.jspiders.hibernate1.dao.MessiRonaldoDAO.java&apos;" description="Copy compilation unit" destination="=hibernate_task/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jspiders.hibernate_task_onetooneuniDAO" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.jspiders.hibernate1.dao{MessiRonaldoDAO.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1670157361603" units="1" version="1.0"/>
+</session>

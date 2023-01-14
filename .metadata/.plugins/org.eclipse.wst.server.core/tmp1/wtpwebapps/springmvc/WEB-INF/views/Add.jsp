@@ -1,0 +1,120 @@
+<%@page import="com.jspiders.springmvc.pojo.StudentPOJO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<jsp:include page="NavBar.jsp" />
+<%
+StudentPOJO student = (StudentPOJO) request.getAttribute("student");
+%>
+<%
+String msg = (String) request.getAttribute("msg");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Student Management</title>
+<style type="text/css">
+body {
+	background-image: url('https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg');
+	background-size: 100%;
+}
+
+table {
+	margin: 0 auto;
+}
+
+form {
+	margin-top: 50px;
+	position: relative;
+	padding: 40px;
+}
+
+form table {
+	margin: auto;
+	width: 100%;
+}
+
+tr {
+	text-align: center;
+}
+
+fieldset table {
+	margin: auto;
+	text-align: left;
+}
+
+fieldset {
+	margin: 15px 520px;
+	text-align: center;
+}
+
+legend {
+	color: Black;
+	background-color: aqua;
+}
+
+input {
+	padding: 6px;
+	margin: 5px;
+}
+
+label {
+	padding: 6px;
+	margin: 0 auto;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+	<fieldset>
+		<legend>Add Student Details</legend>
+		<form action="./add" method="post">
+			<table>
+				<tr>
+					<td><label>Name :</label></td>
+					<td><input type="text" name="name"></td>
+				</tr>
+				<tr>
+					<td><label>Email :</label></td>
+					<td><input type="text" name="email"></td>
+				</tr>
+				<tr>
+					<td><label>Contact :</label></td>
+					<td><input type="text" name="contact"></td>
+				</tr>
+				<tr>
+					<td><label>City :</label></td>
+					<td><input type="text" name="city"></td>
+				</tr>
+				<tr>
+					<td><label>Username :</label></td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td><label>Password :</label></td>
+					<td><input type="text" name="password"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" value="Add"></td>
+				</tr>
+			</table>
+		</form>
+	</fieldset>
+	<%
+	if (student != null) {
+	%>
+	<h3 align="center">
+		<%=student.getName()%>
+		added successfully..!!
+	</h3>
+	<%
+	} else if (msg != null) {
+	%>
+	<h3 align="center">
+		<%=msg%>
+	</h3>
+	<%
+	}
+	%>
+</body>
+</html>

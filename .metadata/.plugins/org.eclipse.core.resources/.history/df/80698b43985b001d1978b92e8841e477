@@ -1,0 +1,85 @@
+package com.jspiders.musicplayer.main;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import com.jspiders.musicplayer.object.Song;
+import com.jspiders.musicplayer.operation.SongOperation;
+
+public class MusicPlayer {
+
+	static boolean loop = true;
+	ArrayList <Song> Song;
+    SongOperation operation = new SongOperation();
+    
+    public static void main(String[] args) {
+		MusicPlayer musicplayer= new MusicPlayer();
+		
+		while (loop) {
+			 musicplayer. musicplayer();
+		}
+	}
+
+	public void musicplayer() {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Please choose following operation :- \n : Add/Remove Song\n1 :- play song\n2 :- edit Song\n3 :- Exit");
+		int choice = scanner.nextInt();
+		
+		switch (choice) {
+		case 1:
+			System.out.println("Choose :- \n 1 :- Add Song\n 2 :- Remove a Song\n 3 :- Back");
+			choice = scanner.nextInt();
+			
+			switch (choice) {
+			case 1:
+				System.out.println("Ho many song you want you to add :- ");
+				choice = scanner.nextInt();
+				while (choice > 0) {
+					operation.addSong();
+					System.out.println("Soong added Succesfully..");
+					choice--;
+				}
+                operation.viewAllSong();
+                loop=true;
+				break;
+			case 2:
+				System.out.println();
+				operation.viewAllSong();
+				System.out.println("Which song do you Edit:-");
+				choice = scanner.nextInt();
+				break;
+			case 3:
+				break;
+			default :
+				System.out.println("Invalid output ");
+				break;
+			}
+                break;
+	  case 2:
+			System.out.println("n\\choose following operation :- \n1 :- Play all song\n2 :- Play random song\n3 :- select song to play\n4 :- Back");
+			choice = scanner.nextInt();
+			switch (choice) {
+			case 1:
+				operation.playAllSong();
+				break;
+
+			default:
+				break;
+			}
+			break;
+	  case 3:
+		  System.out.println("Which song you want to edit :-");
+		  choice = scanner.nextInt();
+		  break;
+	  case 4:
+		  loop=false;
+		  System.out.println("Thak you");
+		  break;
+		  
+	 default :
+		 break;
+		}
+		scanner.close();
+		
+	}
+}

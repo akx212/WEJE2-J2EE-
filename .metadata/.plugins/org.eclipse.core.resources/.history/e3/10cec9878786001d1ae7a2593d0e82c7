@@ -1,0 +1,29 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<jsp:include page="NavBar.jsp" />
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Management</title>
+<style type="text/css">
+body {
+	background-image: url('https://www.pexels.com/photo/mountain-surrounded-with-fog-1772973.jpgs');
+	background-size: 100%;
+}
+
+form {
+	margin-top: 150px;
+}
+
+h1 {
+	margin: auto;
+}
+</style>
+</head>
+<body>
+	<form action="./home" method="get">
+		<h1 align="center">THIS IS MY HOME PAGE</h1>
+	</form>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="E:\WEJE2\springcoreannotations\src\main\java\com\jspiders\springcoreannotations\main\StudentMain1.java"/>
+			<item value="E:\WEJE2\springcorexml"/>
+			<item value="E:\WEJE2\jdbcmusicplayer\src\com\jspiders\jdbcmusicplayer\operation\SongOperation.java"/>
+			<item value="E:\WEJE2\hibernate\pom.xml"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="All Catalogs"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.jspiders.springrest"/>
+			<item value="com.jspiders.springmvc"/>
+			<item value="com.jspiders.springcoreannotations"/>
+			<item value="com.jspiders.springcorexml"/>
+			<item value="com.jspiders.hibernate_musicplayer"/>
+			<item value="com.jspiders.hibernate_task"/>
+			<item value="com.jspiders.hibernate_JPQL"/>
+			<item value="com.jspiders.hibernate5"/>
+			<item value="com.jspiders"/>
+			<item value="com.jspiders.hibernate4"/>
+			<item value="com.jspiders.hibernate3"/>
+			<item value="com.jspiders.hibernate2"/>
+			<item value="com.jspiders.hibernate1"/>
+		</list>
+		<list key="groupId">
+			<item value="com.jspiders"/>
+		</list>
+		<list key="artifactId">
+			<item value="springrest"/>
+			<item value="springmvc"/>
+			<item value="springcoreannotations"/>
+			<item value="springcorexml"/>
+			<item value="hibernate_musicplayer"/>
+			<item value="hibernate_task"/>
+			<item value="hibernate_JPQL"/>
+			<item value="hibernate5"/>
+			<item value="hibernate4"/>
+			<item value="hibernate3"/>
+			<item value="hibernate2"/>
+			<item value="hibernate1"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
